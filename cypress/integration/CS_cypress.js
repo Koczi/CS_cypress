@@ -5,7 +5,7 @@ describe('CS First Step', () => {
 
   })
 
-    it('finds the content "text/html"', () => {
+    it('Simple form send succes', () => {
   
       cy.wait(2000)
       cy.get('#id_first_name').type('Jan')
